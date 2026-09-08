@@ -1,27 +1,27 @@
 # 125. Valid Palindrome
 
-[题目](https://leetcode.com/problems/valid-palindrome/) · [Java 起始文件](Solution.java) · [阶段目录](../README.md)
+[Problem](https://leetcode.com/problems/valid-palindrome/) · [Java starter](Solution.java) · [Phase index](../README.md)
 
-- 原 PDF 日期标注：2026-07-06（不自动代表当前掌握程度）
-- 当前状态：待填写
-- 本次练习日期：
-- 下次复习日期（3–7 天后）：
+- Date annotated in the original PDF: 2026-07-06 (does not automatically indicate current proficiency)
+- Current status: To be recorded
+- Practice date:
+- Next review date (in 3–7 days):
 
-## 一行笔记
+## One-line note
 
-模式：___；不变量：___；我的错误或收获：___。
+Pattern: ___; invariant: ___; my mistake or insight: ___.
 
-## 思考记录（按需填写）
+## Thinking notes (optional)
 
-- 最初的思路：
-- 为什么解法成立：
-- 时间复杂度及理由：
-- 额外空间复杂度及理由：
-- 边界情况与预期输出：
+- Initial approach:
+- Why the solution works:
+- Time complexity and reasoning:
+- Auxiliary space complexity and reasoning:
+- Edge cases and expected outputs:
 
-## 复习记录
+## Review log
 
-| 日期 | 是否独立完成 | 卡点 / 下一步 |
+| Date | Solved independently? | Difficulty encountered / next step |
 |---|---|---|
 
-状态可选：待练习 / 参考提示后完成 / 可独立完成 / 需要重做。
+Suggested statuses: Not attempted / Solved with hints / Solved independently / Needs review.

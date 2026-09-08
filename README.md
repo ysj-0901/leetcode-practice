@@ -8,11 +8,11 @@ This repository records my LeetCode practice as I improve my problem-solving ski
 
 Languages: **Java** (primary for this roadmap), Python (optional).
 
-## 学习路线
+## Study roadmap
 
-依据《LeetCode Study Roadmap | Java》（上传文件 LeetCode_Study_Roadmap(1).pdf）建立。按主题学习，题号仅用于识别。
+Based on *LeetCode Study Roadmap | Java* (provided as LeetCode_Study_Roadmap(1).pdf). Learn by topic; problem numbers serve as identifiers.
 
-| Phase | 主题 | 练习条目 |
+| Phase | Topic | Practice entries |
 |---|---|---|
 | 1 | [Arrays, Strings, and Hash Maps](phase-01-arrays-strings-hash-maps/README.md) | 8 |
 | 2 | [Two Pointers and Sliding Window](phase-02-two-pointers-sliding-window/README.md) | 8 |
@@ -24,25 +24,25 @@ Languages: **Java** (primary for this roadmap), Python (optional).
 | 8 | [Backtracking](phase-08-backtracking/README.md) | 7 |
 | 9 | [Dynamic Programming](phase-09-dynamic-programming/README.md) | 10 |
 
-共 72 个练习条目、71 道不同题目；#347 在 Phase 6 复习，复用 Phase 1 文件。
+There are 72 practice entries covering 71 unique problems. Phase 6 revisits #347 using its Phase 1 files.
 
-## 每次如何使用
+## Study workflow
 
-1. 打开阶段目录，进入题目的 notes.md，再打开题目链接。
-2. 独立思考 20–30 分钟，需要帮助时先看提示。
-3. 从 LeetCode 复制 Java 方法签名，在同目录 Solution.java 中自己实现。
-4. 在 LeetCode 运行并提交，记录边界情况、复杂度和一行笔记。
-5. 更新阶段表格的当前掌握程度，3–7 天后不看旧代码重做。
+1. Open a phase index, select a problem's notes.md, and follow the problem link.
+2. Attempt the problem independently for 20–30 minutes. Start with a hint if you need help.
+3. Copy the Java method signature from LeetCode into Solution.java and implement the solution yourself.
+4. Run and submit on LeetCode. Record edge cases, complexity, and a one-line note.
+5. Update your proficiency in the phase index. Redo the problem after 3–7 days without looking at your earlier code.
 
-原路线建议每周 3–5 题；掌握当前模式后即可进入下一阶段，无需完成该阶段所有题。第一里程碑是认真完成 Phase 1–4 中约 25–30 道精选题。
+The original roadmap recommends 3–5 problems per week. Move on when a pattern feels solid; completing every problem in a phase is optional. The first milestone is to work carefully through around 25–30 selected problems from Phases 1–4.
 
-## 文件约定
+## File conventions
 
-- 每道题有 notes.md 和 Solution.java，代码文件目前仅含起始注释，尚无实现。
-- 笔记可用中文，题目名和代码采用英文。
-- PDF 日期保留为原始标注，星形等图形标记含义不作推断；未标注日期不代表没有做过。
-- 每题独立在 LeetCode Java 环境运行。此仓库不是可整体编译的 Java 项目；本地调试时单独配置当前题目的测试入口和必要节点类型。
-- Min Stack、LRU Cache、Find Median 等设计题需使用题目提供的类名，完成时可相应重命名 Java 文件并更新笔记链接。
-- 可按需添加 solution.py，无需为每道题重复实现两种语言。
+- Each problem has notes.md and Solution.java. Java files currently contain starter comments only; solutions have not been implemented.
+- Use English for notes, problem titles, and code comments.
+- PDF dates are preserved as original annotations. Symbols such as stars are not interpreted; a missing date does not mean the problem has never been attempted.
+- Run each solution independently in LeetCode's Java environment. This repository is not a single compilable Java project. For local debugging, configure a test entry point and any required node definitions for the current problem.
+- Design problems such as Min Stack, LRU Cache, and Find Median require the class name supplied by the problem. Rename the Java file and update its notes link as appropriate when implementing it.
+- Add solution.py when useful; implementing every problem in both languages is optional.
 
-提交示例：`Add Java solution and notes for Two Sum`。
+Example commit: `Add Java solution and notes for Two Sum`.
