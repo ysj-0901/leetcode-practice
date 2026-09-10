@@ -1,27 +1,27 @@
-# 36. Valid Sudoku
+# LeetCode 36 — Valid Sudoku
 
-[Problem](https://leetcode.com/problems/valid-sudoku/) · [Java starter](Solution.java) · [Phase index](../README.md)
+## Skills
+- 2D array traversal
+- Nested loops
+- `set` / `HashSet`
+- Duplicate detection
+- Row and column indexing
+- 3×3 box traversal
 
-- Date annotated in the original PDF: None (does not automatically indicate current proficiency)
-- Current status: To be recorded
-- Practice date:
-- Next review date (in 3–7 days):
+## Main idea
+A valid Sudoku must have:
+- no duplicate digits in each row
+- no duplicate digits in each column
+- no duplicate digits in each 3×3 box
+- `"."` should be ignored
 
-## One-line note
+## Useful patterns
 
-Pattern: ___; invariant: ___; my mistake or insight: ___.
+### Row
+Fix the row, loop through columns.
 
-## Thinking notes (optional)
+### Column
+Fix the column, loop through rows.
 
-- Initial approach:
-- Why the solution works:
-- Time complexity and reasoning:
-- Auxiliary space complexity and reasoning:
-- Edge cases and expected outputs:
-
-## Review log
-
-| Date | Solved independently? | Difficulty encountered / next step |
-|---|---|---|
-
-Suggested statuses: Not attempted / Solved with hints / Solved independently / Needs review.
+```python
+board[row][col]
