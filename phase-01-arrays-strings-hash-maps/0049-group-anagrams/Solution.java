@@ -1,5 +1,23 @@
-// LeetCode 49: Group Anagrams
-// Starter only: no solution has been implemented.
-// Copy the Java signature (or design-problem class) from LeetCode,
-// then implement it yourself. Add imports as needed.
-// TreeNode/ListNode/Node definitions are supplied by LeetCode when applicable.
+class Solution {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        Map<String, List<String>> groups = new HashMap<>();
+
+        for (String word : strs) {
+
+            char[] letters = word.toCharArray();
+            Arrays.sort(letters);
+
+            String key = new String(letters);
+
+            if (!groups.containsKey(key)) {
+                groups.put(key, new ArrayList<>());
+            }
+
+            groups.get(key).add(word);
+        }
+
+        return new ArrayList<>(groups.values());
+    }
+        
+    
+}
