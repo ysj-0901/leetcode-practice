@@ -6,7 +6,7 @@ My LeetCode solutions, notes, and algorithm practice.
 
 This repository records my LeetCode practice as I improve my problem-solving skills, data structures knowledge, and algorithmic thinking.
 
-Languages: **Java** (primary for this roadmap), Python.
+Languages: Java, Python.
 
 ## Study roadmap
 
